@@ -1,7 +1,7 @@
 const express = require('express')
 const server = express()
 const cors = require('cors')
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 3000
 
 const addressScraper = require('./scraper.js')
 
